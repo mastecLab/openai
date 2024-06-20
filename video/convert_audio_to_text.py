@@ -11,7 +11,6 @@ transcript = client.audio.transcriptions.create(
 # Extraer el texto de la transcripción
 print(transcript)
 
-
 f = open("transcription1_2.txt", "w", encoding="utf-8")
 print(transcript, file=f)
 f.close()
