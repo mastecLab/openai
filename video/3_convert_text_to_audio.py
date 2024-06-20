@@ -1,7 +1,6 @@
 from pathlib import Path
 import openai
 
-
 f=open("transcription1_1_prueba.txt", "r", encoding="utf-8")
 content = f.read()
 speech_file_path = Path(__file__).parent / "speech.mp3"
